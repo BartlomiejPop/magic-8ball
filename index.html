@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Magic 8ball</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="info">
+				<h1>Magic 8Ball</h1>
+				<p>Zadaj pytanie, kliknij bilę i poznaj odpowiedź!</p>
+			</div>
+
+			<div class="ball-img">
+				<img
+					width="300px"
+					src="https://cdn.pixabay.com/photo/2012/04/16/11/05/ball-35516_960_720.png"
+					alt="magic 8ball"
+					id="ball" />
+			</div>
+
+			<div class="question-area">
+				<h2>Zadaj pytanie:</h2>
+				<input type="text" id="question-input" />
+				<p class="answer" id="answer">answer</p>
+				<p class="error" id="error">error</p>
+			</div>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
